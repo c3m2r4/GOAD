@@ -1,0 +1,165 @@
+{
+  "data": [
+    {
+      "ObjectIdentifier": "S-1-5-21-701687278-1438560053-3691086007",
+      "Properties": {
+        "name": "NORTH.SEVENKINGDOMS.LOCAL",
+        "domain": "NORTH.SEVENKINGDOMS.LOCAL",
+        "domainsid": "S-1-5-21-701687278-1438560053-3691086007",
+        "distinguishedname": "DC=NORTH,DC=SEVENKINGDOMS,DC=LOCAL",
+        "description": "",
+        "functionallevel": "2016",
+        "highvalue": true,
+        "whencreated": 1787782026
+      },
+      "Trusts": [
+        {
+          "TargetDomainName": "SEVENKINGDOMS.LOCAL",
+          "TargetDomainSid": "S-1-5-21-3655280906-3404559074-1974567417",
+          "IsTransitive": true,
+          "TrustDirection": "Bidirectional",
+          "TrustType": "TreeRoot",
+          "SidFilteringEnabled": false
+        }
+      ],
+      "Aces": [
+        {
+          "RightName": "Owns",
+          "IsInherited": false,
+          "PrincipalSID": "NORTH.SEVENKINGDOMS.LOCAL-S-1-5-32-544",
+          "PrincipalType": "Group"
+        },
+        {
+          "RightName": "GetChanges",
+          "IsInherited": false,
+          "PrincipalSID": "S-1-5-21-3655280906-3404559074-1974567417-498",
+          "PrincipalType": "Base"
+        },
+        {
+          "RightName": "GetChangesAll",
+          "IsInherited": false,
+          "PrincipalSID": "S-1-5-21-701687278-1438560053-3691086007-516",
+          "PrincipalType": "Group"
+        },
+        {
+          "RightName": "GetChangesInFilteredSet",
+          "IsInherited": false,
+          "PrincipalSID": "NORTH.SEVENKINGDOMS.LOCAL-S-1-5-32-544",
+          "PrincipalType": "Group"
+        },
+        {
+          "RightName": "GetChanges",
+          "IsInherited": false,
+          "PrincipalSID": "NORTH.SEVENKINGDOMS.LOCAL-S-1-5-32-544",
+          "PrincipalType": "Group"
+        },
+        {
+          "RightName": "GetChangesAll",
+          "IsInherited": false,
+          "PrincipalSID": "NORTH.SEVENKINGDOMS.LOCAL-S-1-5-32-544",
+          "PrincipalType": "Group"
+        },
+        {
+          "RightName": "GetChangesInFilteredSet",
+          "IsInherited": false,
+          "PrincipalSID": "NORTH.SEVENKINGDOMS.LOCAL-S-1-5-9",
+          "PrincipalType": "Group"
+        },
+        {
+          "RightName": "GetChanges",
+          "IsInherited": false,
+          "PrincipalSID": "NORTH.SEVENKINGDOMS.LOCAL-S-1-5-9",
+          "PrincipalType": "Group"
+        },
+        {
+          "RightName": "WriteOwner",
+          "IsInherited": false,
+          "PrincipalSID": "S-1-5-21-701687278-1438560053-3691086007-512",
+          "PrincipalType": "Group"
+        },
+        {
+          "RightName": "AllExtendedRights",
+          "IsInherited": false,
+          "PrincipalSID": "S-1-5-21-701687278-1438560053-3691086007-512",
+          "PrincipalType": "Group"
+        },
+        {
+          "RightName": "WriteDacl",
+          "IsInherited": false,
+          "PrincipalSID": "S-1-5-21-701687278-1438560053-3691086007-512",
+          "PrincipalType": "Group"
+        },
+        {
+          "RightName": "GenericAll",
+          "IsInherited": false,
+          "PrincipalSID": "S-1-5-21-3655280906-3404559074-1974567417-519",
+          "PrincipalType": "Base"
+        },
+        {
+          "RightName": "WriteOwner",
+          "IsInherited": false,
+          "PrincipalSID": "NORTH.SEVENKINGDOMS.LOCAL-S-1-5-32-544",
+          "PrincipalType": "Group"
+        },
+        {
+          "RightName": "AllExtendedRights",
+          "IsInherited": false,
+          "PrincipalSID": "NORTH.SEVENKINGDOMS.LOCAL-S-1-5-32-544",
+          "PrincipalType": "Group"
+        },
+        {
+          "RightName": "WriteDacl",
+          "IsInherited": false,
+          "PrincipalSID": "NORTH.SEVENKINGDOMS.LOCAL-S-1-5-32-544",
+          "PrincipalType": "Group"
+        }
+      ],
+      "Links": [
+        {
+          "IsEnforced": false,
+          "GUID": "8A619D4F-EF6B-4050-B51C-A6143BC94C9C"
+        },
+        {
+          "IsEnforced": false,
+          "GUID": "1EB95BD0-25E9-45A0-B9E6-A3FEDF6DE63B"
+        }
+      ],
+      "ChildObjects": [
+        {
+          "ObjectIdentifier": "5F2484B7-8B66-43D2-B346-8FFCDA177704",
+          "ObjectType": "Container"
+        },
+        {
+          "ObjectIdentifier": "DB18D8E4-52F0-477C-B92C-C9ADCB658B51",
+          "ObjectType": "Container"
+        },
+        {
+          "ObjectIdentifier": "D5F37A9B-D1A5-4346-B6AF-996071FC1300",
+          "ObjectType": "Container"
+        },
+        {
+          "ObjectIdentifier": "D739EA55-84FC-489A-8D32-5572B53E5F89",
+          "ObjectType": "OU"
+        },
+        {
+          "ObjectIdentifier": "6B8D2051-3F96-430C-B1F2-6824BD372620",
+          "ObjectType": "Container"
+        }
+      ],
+      "GPOChanges": {
+        "AffectedComputers": [],
+        "DcomUsers": [],
+        "LocalAdmins": [],
+        "PSRemoteUsers": [],
+        "RemoteDesktopUsers": []
+      },
+      "IsDeleted": false,
+      "IsACLProtected": false
+    }
+  ],
+  "meta": {
+    "type": "domains",
+    "count": 1,
+    "version": 5
+  }
+}

@@ -1,0 +1,12 @@
+Administrator
+Guest
+DefaultAccount
+vagrant
+krbtgt
+daenerys.targaryen
+viserys.targaryen
+khal.drogo
+jorah.mormont
+missandei
+drogon
+sql_svc

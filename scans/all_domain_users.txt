@@ -1,0 +1,17 @@
+Administrator
+arya.stark
+brandon.stark
+catelyn.stark
+eddard.stark
+Guest
+hodor
+jeor.mormont
+jon.snow
+krbtgt
+rickon.stark
+robb.stark
+samwell.tarly
+sansa.stark
+sql_svc
+sql_svcadministrator
+vagrant
